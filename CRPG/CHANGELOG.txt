@@ -1,0 +1,11 @@
+﻿Proposed changes for v0.0.3
++ Added CHANGELOG
++ Debug Commands
++ Stats for player
++ Inventory
++ Random number
++ WhereAmI (Similar to look, when we move we see the Description)
++ Shortcut Navigation
++ Location Requirement
+
+Version 0.0.3 Completed on 5/17/2022.

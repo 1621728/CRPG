@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VGD\\Ben\\GIT\\CRPG\\CRPG\\CRPG.csproj",
+      "projectUniqueName": "E:\\VGD\\Ben\\GIT\\CRPG Git\\CRPG\\CRPG.csproj",
       "projectName": "CRPG",
-      "projectPath": "E:\\VGD\\Ben\\GIT\\CRPG\\CRPG\\CRPG.csproj",
+      "projectPath": "E:\\VGD\\Ben\\GIT\\CRPG Git\\CRPG\\CRPG.csproj",
       "packagesPath": "C:\\Users\\1621728\\.nuget\\packages\\",
-      "outputPath": "E:\\VGD\\Ben\\GIT\\CRPG\\CRPG\\obj\\",
+      "outputPath": "E:\\VGD\\Ben\\GIT\\CRPG Git\\CRPG\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\1621728\\AppData\\Roaming\\NuGet\\NuGet.Config",

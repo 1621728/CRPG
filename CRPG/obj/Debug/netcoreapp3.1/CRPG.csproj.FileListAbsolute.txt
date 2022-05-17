@@ -37,3 +37,16 @@ E:\VGD\Ben\GIT\CRPG\CRPG\bin\Debug\netcoreapp3.1\CRPG.runtimeconfig.dev.json
 E:\VGD\Ben\GIT\CRPG\CRPG\bin\Debug\netcoreapp3.1\CRPG.dll
 E:\VGD\Ben\GIT\CRPG\CRPG\bin\Debug\netcoreapp3.1\CRPG.pdb
 E:\VGD\Ben\GIT\CRPG\CRPG\obj\Debug\netcoreapp3.1\CRPG.genruntimeconfig.cache
+E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\CRPG.exe
+E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\CRPG.deps.json
+E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\CRPG.runtimeconfig.json
+E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\CRPG.runtimeconfig.dev.json
+E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\CRPG.dll
+E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\CRPG.pdb
+E:\VGD\Ben\GIT\CRPG Git\CRPG\obj\Debug\netcoreapp3.1\CRPG.csprojAssemblyReference.cache
+E:\VGD\Ben\GIT\CRPG Git\CRPG\obj\Debug\netcoreapp3.1\CRPG.AssemblyInfoInputs.cache
+E:\VGD\Ben\GIT\CRPG Git\CRPG\obj\Debug\netcoreapp3.1\CRPG.AssemblyInfo.cs
+E:\VGD\Ben\GIT\CRPG Git\CRPG\obj\Debug\netcoreapp3.1\CRPG.csproj.CoreCompileInputs.cache
+E:\VGD\Ben\GIT\CRPG Git\CRPG\obj\Debug\netcoreapp3.1\CRPG.dll
+E:\VGD\Ben\GIT\CRPG Git\CRPG\obj\Debug\netcoreapp3.1\CRPG.pdb
+E:\VGD\Ben\GIT\CRPG Git\CRPG\obj\Debug\netcoreapp3.1\CRPG.genruntimeconfig.cache

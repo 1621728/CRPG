@@ -86,6 +86,19 @@ namespace CRPG
                 Console.WriteLine("\tXP: \t\t{0}", _player.ExperiencePoints);
                 Console.WriteLine("\tLevel: \t\t{0}", _player.Level);
                 Console.WriteLine("\tGold: \t\t{0}", _player.Gold);
+            }else if (input == "quests")
+            {
+                if (_player.Quests.Count == 0)
+                {
+                    Console.WriteLine("\n You do not have any quests.\n");
+                }
+                else
+                {
+                    foreach (PlayerQuest playerQuest in _player.Quests)
+                    {
+                        Console.WriteLine("{0}: {1}", playerQuest.Details.Name, playerQuest.IsCompleted ? "Completed" : "Incomplete");
+                    }
+                }
             }
             else
             {

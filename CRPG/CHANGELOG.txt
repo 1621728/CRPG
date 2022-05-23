@@ -12,5 +12,7 @@ Version 0.0.3 Completed on 5/17/2022.
 
 Proposed changes for v0.0.4
 + Healing each move
-- Add quests to the system
-- Monstor Detection
++ Add quests to the system
++ Monstor Detection
+
+Version 0.0.4 Completed on 5/23/2022.

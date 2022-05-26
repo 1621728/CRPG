@@ -13,6 +13,8 @@ namespace CRPG
         public Location CurrentLocation;
         public List<InventoryItem> Inventory;
         public List<PlayerQuest> Quests;
+        public Weapon CurrentWeapon;
+        public List<Weapon> Weapons = new List<Weapon>();
 
         public Player(string name, int currentHitPoints, int maximumHitPoints, int gold, int experiencePoints, int level): base(currentHitPoints, maximumHitPoints)
         {
@@ -216,7 +218,27 @@ namespace CRPG
             }
         }
 
+        //////////////////////////////////////Weapon work
+        
+        public void UseWeapon(Weapon weapon)
+        {
+            Console.WriteLine("FIGHT! -- TODO Finish Later");
+        }
 
+        public void UpdateWeapons()
+        {
+            Weapons.Clear();
+            foreach(InventoryItem inventoryItem in this.Inventory)
+            {
+                if(inventoryItem.Details is Weapon)
+                {
+                    if(inventoryItem.Quantity > 0)
+                    {
+                        Weapons.Add((Weapon)inventoryItem.Details);
+                    }
+                }
+            }
+        }
 
     }//Class Player
 }

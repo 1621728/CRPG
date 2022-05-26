@@ -1,15 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows;
 
 namespace CRPG
 {
     public static class GameEngine
     {
+
         public static string Version = "0.0.4";
         public static Monster _currentMonster;
 
-
+        static void Main(string[] args)
+        {
+            
+            
+        }
         public static void Initialize()
         {
             Console.WriteLine("Initializing Game Engine Version {0}", Version);

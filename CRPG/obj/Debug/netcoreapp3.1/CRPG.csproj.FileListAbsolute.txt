@@ -38,15 +38,26 @@ E:\VGD\Ben\GIT\CRPG\CRPG\bin\Debug\netcoreapp3.1\CRPG.dll
 E:\VGD\Ben\GIT\CRPG\CRPG\bin\Debug\netcoreapp3.1\CRPG.pdb
 E:\VGD\Ben\GIT\CRPG\CRPG\obj\Debug\netcoreapp3.1\CRPG.genruntimeconfig.cache
 E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\CRPG.exe
-E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\CRPG.deps.json
-E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\CRPG.runtimeconfig.json
-E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\CRPG.runtimeconfig.dev.json
 E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\CRPG.dll
-E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\CRPG.pdb
-E:\VGD\Ben\GIT\CRPG Git\CRPG\obj\Debug\netcoreapp3.1\CRPG.csprojAssemblyReference.cache
+E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\NAudio.dll
+E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\NAudio.Asio.dll
+E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\NAudio.Core.dll
+E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\NAudio.Midi.dll
+E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\NAudio.Wasapi.dll
+E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\NAudio.WinForms.dll
+E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\NAudio.WinMM.dll
+E:\VGD\Ben\GIT\CRPG Git\CRPG\obj\Debug\netcoreapp3.1\CRPG.Properties.Resources.resources
+E:\VGD\Ben\GIT\CRPG Git\CRPG\obj\Debug\netcoreapp3.1\CRPG.csproj.GenerateResource.cache
 E:\VGD\Ben\GIT\CRPG Git\CRPG\obj\Debug\netcoreapp3.1\CRPG.AssemblyInfoInputs.cache
 E:\VGD\Ben\GIT\CRPG Git\CRPG\obj\Debug\netcoreapp3.1\CRPG.AssemblyInfo.cs
 E:\VGD\Ben\GIT\CRPG Git\CRPG\obj\Debug\netcoreapp3.1\CRPG.csproj.CoreCompileInputs.cache
+E:\VGD\Ben\GIT\CRPG Git\CRPG\obj\Debug\netcoreapp3.1\CRPG.csproj.CopyComplete
 E:\VGD\Ben\GIT\CRPG Git\CRPG\obj\Debug\netcoreapp3.1\CRPG.dll
 E:\VGD\Ben\GIT\CRPG Git\CRPG\obj\Debug\netcoreapp3.1\CRPG.pdb
+E:\VGD\Ben\GIT\CRPG Git\CRPG\obj\Debug\netcoreapp3.1\CRPG.csprojAssemblyReference.cache
+E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\Mortal Kombat Theme [8 Bit Tribute to Mortal Kombat] - 8 Bit Universe.mp3
+E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\CRPG.deps.json
+E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\CRPG.runtimeconfig.json
+E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\CRPG.runtimeconfig.dev.json
+E:\VGD\Ben\GIT\CRPG Git\CRPG\bin\Debug\netcoreapp3.1\CRPG.pdb
 E:\VGD\Ben\GIT\CRPG Git\CRPG\obj\Debug\netcoreapp3.1\CRPG.genruntimeconfig.cache

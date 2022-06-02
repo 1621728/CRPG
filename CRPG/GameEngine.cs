@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
-
+using NAudio;
+using System.Windows.Forms;
 namespace CRPG
 {
     public static class GameEngine
@@ -11,11 +12,8 @@ namespace CRPG
         public static string Version = "0.0.4";
         public static Monster _currentMonster;
 
-        static void Main(string[] args)
-        {
-            
-            
-        }
+        
+
         public static void Initialize()
         {
             Console.WriteLine("Initializing Game Engine Version {0}", Version);
@@ -24,6 +22,7 @@ namespace CRPG
             World.ListLocations();
             if(_currentMonster != null)
             {
+               
                 Console.WriteLine("Current Monster:{0}", _currentMonster);
             }
             else

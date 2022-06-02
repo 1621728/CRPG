@@ -1,4 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+//using NAudio;
+using System.Windows.Forms;
+
 // Benjamin Morell YYYY
 namespace CRPG
 {
@@ -8,6 +15,7 @@ namespace CRPG
         private static Player _player = new Player("Fred the Fearless", 10, 10, 20, 0, 1);
         static void Main(string[] args)
         {
+
             GameEngine.Initialize();
             _player.MoveTo(World.LocationByID(World.LOCATION_ID_HOME));
             //Console.WriteLine(RandomNumberGenerator.NumberBetween(4, 10));
@@ -26,6 +34,7 @@ namespace CRPG
                 {
                     continue;
                 }
+
                 string cleanedInput = userInput.ToLower();
 
                 if(cleanedInput == "exit")
@@ -98,6 +107,68 @@ namespace CRPG
                     {
                         Console.WriteLine("{0}: {1}", playerQuest.Details.Name, playerQuest.IsCompleted ? "Completed" : "Incomplete");
                     }
+                }
+            }else if (input.Contains("attack") || input.Contains("a"))
+            {
+                if(_player.CurrentLocation.MonsterLivingHere == null)
+                {
+                    Console.WriteLine("\nThere is nothing here to attack.\n");
+                }
+                else
+                {
+                    if (_player.CurrentWeapon == null)
+                    {
+                        Console.WriteLine("\nYou are unarmed.\n");
+                    }
+                    else
+                    {
+                        _player.UseWeapon(_player.CurrentWeapon);
+
+
+                        //Battle music
+                        //NAudio.Wave.WaveFileReader wave;
+                        //NAudio.Wave.DirectSoundOut output;
+
+                        //OpenFileDialog open = new OpenFileDialog();
+                        //open.Filter = "MP3 File (*.mp3)|*.mp3;";
+                        //if (open.ShowDialog() != DialogResult.OK) return;
+
+                        //wave = new NAudio.Wave.WaveFileReader(open.FileName);
+
+                        //output = new NAudio.Wave.DirectSoundOut();
+                        //output.Init(new NAudio.Wave.WaveChannel32(wave));
+                        //output.Play();
+                    }
+                }
+            }else if (input.StartsWith("equip "))
+            {
+                _player.UpdateWeapons();
+                string inputWeaponName = input.Substring(6).Trim();
+                if (string.IsNullOrEmpty(inputWeaponName))
+                {
+                    Console.WriteLine("\nYou must enter the name of the weapon to equip it.\n");
+                }
+                else
+                {
+                    Weapon weaponToEquip = _player.Weapons.SingleOrDefault( x => x.Name.ToLower() == inputWeaponName || x.NamePlural.ToLower() == inputWeaponName);
+
+                    if(weaponToEquip == null)
+                    {
+                        Console.WriteLine("\nYou do not have the weapon {0}.\n", inputWeaponName);
+                    }
+                    else
+                    {
+                        _player.CurrentWeapon = weaponToEquip;
+                        Console.WriteLine("\nEquipped {0}.\n", inputWeaponName);
+                    }
+                }
+            }else if(input == "weapons")
+            {
+                _player.UpdateWeapons();
+                Console.WriteLine("\nList of Weapons: \n");
+                foreach(Weapon w in _player.Weapons)
+                {
+                    Console.WriteLine("\t{0}", w.Name);
                 }
             }
             else

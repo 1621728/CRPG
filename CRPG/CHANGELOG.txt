@@ -18,8 +18,11 @@ Proposed changes for v0.0.4
 Version 0.0.4 Completed on 5/23/2022.
 
 Proposed changes for v0.0.5
-- Weapon equipping
-- Attack Engine
-- Last bit of cleanup, abbreviate some of the commands
++ Weapon equipping
++ Attack Engine
++ Last bit of cleanup, abbreviate some of the commands
 - Finish HELP System
 
+Version 0.0.5 is Completed!!!!!
+
+Your job is to extend this program.
